@@ -1,0 +1,49 @@
+.icon-close {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 18px;
+  color: blue;
+}
+
+.icon-close:hover {
+  color: red;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.user-name {
+  padding: 20px 5px;
+}
+
+.password {
+  padding: 20px 5px;
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row-reverse;
+}
+
+.button {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.button.login {
+  margin-right: 30px;
+}
+
+.button.cancel {
+  margin-right: 15px;
+}
